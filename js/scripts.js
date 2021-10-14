@@ -1,0 +1,10 @@
+let num1 = prompt(`Введите количество своих зубов`);
+let num2 = prompt(`Введите количество зубов своей собаки`);
+const result1 = Number(num1) + Number(num2);
+const result2 = Number(num1) - Number(num2);
+const result3 = Number(num1) * Number(num2);
+const result4 = Number(num1) / Number(num2);
+console.log(`Результат: ${num1}+${num2} = ${result1}`)
+console.log(`Результат: ${num1}-${num2} = ${result2}`)
+console.log(`Результат: ${num1}*${num2} = ${result3}`)
+console.log(`Результат: ${num1}/${num2} = ${result4}`)
