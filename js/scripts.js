@@ -1,5 +1,5 @@
-let num1 = prompt(`Введите количество своих зубов`);
-let num2 = prompt(`Введите количество зубов своей собаки`);
+const num1 = prompt(`Введите количество своих зубов`);
+const num2 = prompt(`Введите количество зубов своей собаки`);
 const result1 = Number(num1) + Number(num2);
 const result2 = Number(num1) - Number(num2);
 const result3 = Number(num1) * Number(num2);
